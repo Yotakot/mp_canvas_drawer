@@ -28,6 +28,19 @@ Page({
             height: 555
           },
           {
+            type: 'text',
+            content: '长按识别图中二维码帮我砍个价呗~',
+            fontSize: 14,
+            color: '#383549',
+            textAlign: 'left',
+            top: 460,
+            left: 165.5,
+            lineHeight: 20,
+            MaxLineNumber: 2,
+            breakWord: true,
+            width: 125
+          },
+          {
             type: 'image',
             url: 'https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83epJEPdPqQVgv6D8bojGT4DrGXuEC4Oe0GXs5sMsN4GGpCegTUsBgL9SPJkN9UqC1s0iakjQpwd4h4A/132',
             top: 27.5,
@@ -64,17 +77,19 @@ Page({
           },
           {
             type: 'image',
-            url: 'https://hybrid.xiaoying.tv/miniprogram/viva-ad/1/1531385366950.jpeg',
+            url: '/images/img_vertical.jpg',
             top: 136,
             left: 42.5,
             width: 290,
+            scaleSrc:1,
             height: 186
           },
           {
             type: 'image',
-            url: 'https://hybrid.xiaoying.tv/miniprogram/viva-ad/1/1531385433625.jpeg',
+            url: '/images/img_hor.jpg',
             top: 443,
             left: 85,
+            scaleSrc:1,
             width: 68,
             height: 68
           },
@@ -112,19 +127,7 @@ Page({
             left: 110,
             textDecoration: 'line-through'
           },
-          {
-            type: 'text',
-            content: '长按识别图中二维码帮我砍个价呗~',
-            fontSize: 14,
-            color: '#383549',
-            textAlign: 'left',
-            top: 460,
-            left: 165.5,
-            lineHeight: 20,
-            MaxLineNumber: 2,
-            breakWord: true,
-            width: 125
-          }
+         
         ]
       }
     })
