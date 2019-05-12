@@ -4,7 +4,8 @@
 
 #### 增加图片裁剪，避免图片变形
 
-#####未开启图片裁剪
+##### 未开启图片裁剪
+
  ```
   {
             type: 'image',
@@ -16,9 +17,9 @@
             height: 186
  }
  ```
- <image src="https://github.com/Yotakot/mp_canvas_drawer/blob/master/images/preview.png"/
+ <image src="https://github.com/Yotakot/mp_canvas_drawer/blob/master/images/preview.png"/>
 
-#####开启图片裁剪
+##### 开启图片裁剪
 ```
   {
             type: 'image',
