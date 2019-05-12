@@ -2,9 +2,9 @@
 
 ### fork自<a href='https://github.com/kuckboy1994/mp_canvas_drawer/'>mp_canvas_drawer</a>
 
-#### 增加图片裁剪，避免图片变形
+#### 增加图片缩放，避免图片变形
 
-##### 未开启图片裁剪
+##### 未开启图片缩放
 
  ```
   {
@@ -19,7 +19,7 @@
  ```
  <image src="https://github.com/Yotakot/mp_canvas_drawer/blob/master/images/preview.png"/>
 
-##### 开启图片裁剪
+##### 开启图片缩放
 ```
   {
             type: 'image',
